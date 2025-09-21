@@ -43,7 +43,7 @@ typedef struct {
   int type;
   int rotation;
   int max_rotations;
-  int shape[MAX_SHAPE_Y][MAX_SHAPE_Y];
+  int shape[MAX_SHAPE_Y][MAX_SHAPE_X];
   int y;
   int x;
   int ghost_y;
